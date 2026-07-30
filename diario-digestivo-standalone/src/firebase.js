@@ -1,16 +1,13 @@
 // ---------------------------------------------------------------
-// PEGA AQUÍ la configuración de TU proyecto de Firebase.
-// La encuentras en: Firebase Console > ⚙️ Configuración del proyecto
-// > tu app web > "Config" (o "SDK setup and configuration").
-// No es información secreta, pero sí es única de tu proyecto.
+// Configuración de tu proyecto de Firebase.
 // ---------------------------------------------------------------
 const firebaseConfig = {
-  apiKey: "PEGA_TU_API_KEY_AQUI",
-  authDomain: "PEGA_TU_AUTH_DOMAIN_AQUI",
-  projectId: "PEGA_TU_PROJECT_ID_AQUI",
-  storageBucket: "PEGA_TU_STORAGE_BUCKET_AQUI",
-  messagingSenderId: "PEGA_TU_SENDER_ID_AQUI",
-  appId: "PEGA_TU_APP_ID_AQUI"
+  apiKey: "AIzaSyDRTTQgqF7-NYzR8vKUfvP6rzL8Y6nS6-M",
+  authDomain: "health-tracker-b997f.firebaseapp.com",
+  projectId: "health-tracker-b997f",
+  storageBucket: "health-tracker-b997f.firebasestorage.app",
+  messagingSenderId: "1017398021523",
+  appId: "1:1017398021523:web:57e1a8c603f20e028eec66"
 };
 
 import { initializeApp } from "firebase/app";
